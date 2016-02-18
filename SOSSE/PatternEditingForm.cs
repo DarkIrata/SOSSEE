@@ -11,8 +11,8 @@ namespace SOSSE
 {
     public partial class PatternEditingForm : Form
     {
-        private const int patternSetOffset = 0x4279C;
-        private const int patternOffset = 0x4293A;
+        private const int patternSetOffset = 0x4279C; //0x42CDC ?
+        private const int patternOffset = 0x4293A; //0x42E7A ?
 
         public const int MaxPattern = 266;
         public const int MaxPatternSet = 158;

@@ -25,7 +25,7 @@ namespace SOSSE
             public int Animal { get; set; }
         }
         private static readonly Offsets[] offset = new Offsets[] { 
-            new Offsets { Item = 0x4E638, Blueprint = 0x4E890, Recipe = 0x4E892, Pattern = 0x4E8AE, Animal = 0x4E8AE },
+            /*ok*/new Offsets { Item = 0x4EB78, Blueprint = 0x4EDD0, Recipe = 0x4EDD2, Pattern = 0x4EDEE, Animal = 0x4EDEE },
             new Offsets { Item = 0x4E8B4, Blueprint = 0x4EB0C, Recipe = 0x4EC5E, Pattern = 0x4EC5E, Animal = 0x4EC5E },
             new Offsets { Item = 0x4EC64, Blueprint = 0x4EEBC, Recipe = 0x4EEEE, Pattern = 0x4EEEE, Animal = 0x4EF1E },
             new Offsets { Item = 0x4EF24, Blueprint = 0x4F17C, Recipe = 0x4F212, Pattern = 0x4F276, Animal = 0x4F294 },

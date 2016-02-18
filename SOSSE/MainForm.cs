@@ -46,12 +46,12 @@ namespace SOSSE
             balanceButton.Enabled = true;
             blueprintButton.Enabled = false;
             conquestButton.Enabled = false;
-            shopButton.Enabled = false;
+            shopButton.Enabled = true;
             animalButton.Enabled = false;
             patternButton.Enabled = false;
             recipeButton.Enabled = true;
             vendorButton.Enabled = true;
-            npcButton.Enabled = false;
+            npcButton.Enabled = true;
             generalButton.Enabled = true;
             eventButton.Enabled = false;
         }
