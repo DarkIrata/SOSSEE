@@ -44,7 +44,7 @@ namespace SOSSE
             objectButton.Enabled = true;
             shipLogButton.Enabled = true;
             balanceButton.Enabled = true;
-            blueprintButton.Enabled = false;
+            blueprintButton.Enabled = true;
             conquestButton.Enabled = true;
             shopButton.Enabled = true;
             animalButton.Enabled = false;

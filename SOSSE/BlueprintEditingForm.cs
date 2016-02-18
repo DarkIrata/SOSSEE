@@ -11,8 +11,8 @@ namespace SOSSE
 {
     public partial class BlueprintEditingForm : Form
     {
-        private const int blueprintOffset = 0x314A4;
-        private const int blueprintSetOffset = 0x318EC;
+        private const int blueprintOffset = 0x319E4;
+        private const int blueprintSetOffset = 0x31E2C;
 
         public const int MaxBlueprint = 1096;
         public const int MaxBlueprintSet = 820;
