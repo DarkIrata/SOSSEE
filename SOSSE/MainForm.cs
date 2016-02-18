@@ -53,7 +53,7 @@ namespace SOSSE
             vendorButton.Enabled = true;
             npcButton.Enabled = false;
             generalButton.Enabled = true;
-            eventButton.Enabled = false;
+            eventButton.Enabled = true;
         }
 
         private void openButton_Click(object sender, EventArgs e)

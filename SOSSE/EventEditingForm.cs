@@ -11,7 +11,7 @@ namespace SOSSE
 {
     public partial class EventEditingForm : Form
     {
-        private const int eventOffset = 0xFB8;
+        private const int eventOffset = 0xFE0;
 
         public const int MaxEvent = 667;
         public bool DataLoaded { get; private set; }
