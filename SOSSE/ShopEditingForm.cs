@@ -25,16 +25,16 @@ namespace SOSSE
             public int Animal { get; set; }
         }
         private static readonly Offsets[] offset = new Offsets[] { 
-            /*ok*/new Offsets { Item = 0x4EB78, Blueprint = 0x4EDD0, Recipe = 0x4EDD2, Pattern = 0x4EDEE, Animal = 0x4EDEE },
-            new Offsets { Item = 0x4E8B4, Blueprint = 0x4EB0C, Recipe = 0x4EC5E, Pattern = 0x4EC5E, Animal = 0x4EC5E },
-            new Offsets { Item = 0x4EC64, Blueprint = 0x4EEBC, Recipe = 0x4EEEE, Pattern = 0x4EEEE, Animal = 0x4EF1E },
-            new Offsets { Item = 0x4EF24, Blueprint = 0x4F17C, Recipe = 0x4F212, Pattern = 0x4F276, Animal = 0x4F294 },
-            new Offsets { Item = 0x4F2B8, Blueprint = 0x4F510, Recipe = 0x4F5A6, Pattern = 0x4F60A, Animal = 0x4F628 },
-            new Offsets { Item = 0x4F64C, Blueprint = 0x4F8A4, Recipe = 0x4F93A, Pattern = 0x4F99E, Animal = 0x4F9BC },
-            new Offsets { Item = 0x4F9E0, Blueprint = 0x4FC38, Recipe = 0x4FCCE, Pattern = 0x4FD32, Animal = 0x4FC50 },
-            new Offsets { Item = 0x4FD74, Blueprint = 0x4FFCC, Recipe = 0x50062, Pattern = 0x500C6, Animal = 0x500E4 },
-            new Offsets { Item = 0x50108, Blueprint = 0x50360, Recipe = 0x503F6, Pattern = 0x5045A, Animal = 0x50478 },
-            new Offsets { Item = 0x5049C, Blueprint = 0x506F4, Recipe = 0x5078A, Pattern = 0x507EE, Animal = 0x5080C },
+            new Offsets { Item = 0x4EB78, Blueprint = 0x4EDD0, Recipe = 0x4EDD2, Pattern = 0x4EDEE, Animal = 0x4EDEE },
+            new Offsets { Item = 0x4EDF4, Blueprint = 0x4F04C, Recipe = 0x4F19E, Pattern = 0x4F19E, Animal = 0x4F19E },
+            new Offsets { Item = 0x4F1A4, Blueprint = 0x4F3FC, Recipe = 0x4F42E, Pattern = 0x4F42E, Animal = 0x4F45E },
+            new Offsets { Item = 0x4F464, Blueprint = 0x4F6BC, Recipe = 0x4F752, Pattern = 0x4F7B6, Animal = 0x4F7D4 },
+            new Offsets { Item = 0x4F7F8, Blueprint = 0x4FA50, Recipe = 0x4FAE6, Pattern = 0x4FB4A, Animal = 0x4FB68 },
+            new Offsets { Item = 0x4FB8C, Blueprint = 0x4FDE4, Recipe = 0x4FE7A, Pattern = 0x4FEDE, Animal = 0x4FEFC },
+            new Offsets { Item = 0x4FF20, Blueprint = 0x50178, Recipe = 0x5020E, Pattern = 0x50272, Animal = 0x50190 },
+            new Offsets { Item = 0x502B4, Blueprint = 0x5050C, Recipe = 0x505A2, Pattern = 0x50606, Animal = 0x50624 },
+            new Offsets { Item = 0x50648, Blueprint = 0x508A0, Recipe = 0x50936, Pattern = 0x5099A, Animal = 0x509B8 },
+            new Offsets { Item = 0x509DC, Blueprint = 0x50C34, Recipe = 0x50CCA, Pattern = 0x50D2E, Animal = 0x50D4C },
         };
         private int currentShop;
         #region Shop data

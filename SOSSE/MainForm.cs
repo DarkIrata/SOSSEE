@@ -51,7 +51,7 @@ namespace SOSSE
             patternButton.Enabled = false;
             recipeButton.Enabled = true;
             vendorButton.Enabled = true;
-            npcButton.Enabled = true;
+            npcButton.Enabled = false;
             generalButton.Enabled = true;
             eventButton.Enabled = false;
         }
