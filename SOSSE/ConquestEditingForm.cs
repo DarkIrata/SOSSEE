@@ -11,9 +11,9 @@ namespace SOSSE
 {
     public partial class ConquestEditingForm : Form
     {
-        private const int moneyOffset = 0x47A6C;
-        private const int itemVarietyOffset = 0x47A74;
-        private const int itemQuantityOffset = 0x46EF0;
+        private const int moneyOffset = 0x47FAC;
+        private const int itemVarietyOffset = 0x47FB4;
+        private const int itemQuantityOffset = 0x47430;
         private long money;
         private int currentItemQuantity;
         private int totalItemShipped;
