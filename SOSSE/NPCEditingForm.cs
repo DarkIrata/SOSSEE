@@ -11,7 +11,7 @@ namespace SOSSE
 {
     public partial class NPCEditingForm : Form
     {
-        private int npcOffset = 0x118; // may be misaligned, though.
+        private int npcOffset = 0x110; // may be misaligned, though.
         private int currentNPC;
         
         public const int MaxNPC = 33;

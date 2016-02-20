@@ -44,14 +44,14 @@ namespace SOSSE
             objectButton.Enabled = true;
             shipLogButton.Enabled = true;
             balanceButton.Enabled = true;
-            blueprintButton.Enabled = true;
+            blueprintButton.Enabled = false;
             conquestButton.Enabled = true;
             shopButton.Enabled = true;
             animalButton.Enabled = false;
             patternButton.Enabled = false;
             recipeButton.Enabled = true;
             vendorButton.Enabled = true;
-            npcButton.Enabled = false;
+            npcButton.Enabled = true;
             generalButton.Enabled = true;
             eventButton.Enabled = true;
         }
