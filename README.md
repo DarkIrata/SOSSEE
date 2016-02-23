@@ -9,7 +9,7 @@ or SaveDataFiler
 
 Download
 ==========
-* http://github.com/Alex193a/SOSSEE/releases
+* Windows release: http://github.com/Alex193a/SOSSEE/releases
 * OSX release v1.8.1: http://rapidgator.net/file/f8982c85ce4e6545c25453b0c714ce97
 * OSX release v1.7.7: http://rapidgator.net/file/6678e318f8ba6ba0e25cbb23fe99dd9c
 
