@@ -9,6 +9,8 @@ namespace SOSSE
     {
         private byte[] itemBytes;
 
+        public int UnsortedID { get; set; }
+
         public ushort Index
         {
             get

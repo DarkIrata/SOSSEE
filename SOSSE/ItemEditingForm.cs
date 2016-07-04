@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Linq;
 using System.Windows.Forms;
 using System.IO;
 
@@ -326,6 +327,7 @@ namespace SOSSE
                 byte[] itemBytes = new byte[12];
                 Array.Copy(MainForm.SaveData, localOffset, itemBytes, 0, 12);
                 Item item = new Item(itemBytes);
+                item.UnsortedID = i;
                 items[i] = item;
                 if (item.Quality < -1)
                 {
@@ -744,6 +746,7 @@ namespace SOSSE
         private void saveItems(ContainerID containerID)
         {
             Item[] items = containers[(int)containerID].Items;
+            items = items.OrderBy(x => x.UnsortedID).ToArray();
             int count = containers[(int)containerID].Count;
             int offset = containers[(int)containerID].Offset;
             DataGridView dataGridView = containers[(int)containerID].ContainerDataGridView;
